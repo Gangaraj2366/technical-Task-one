@@ -1,0 +1,60 @@
+
+.table-row td, .table-row th{
+    border: 2px solid red;
+    padding: 20px;
+    color: brown;
+}
+table {
+    border-collapse: collapse;
+    margin:auto;
+  }
+
+
+  /* ! form css */
+  .form-input{
+    margin: 5px;
+    margin-top: 80px;
+  }
+  .form-input input{
+    margin: 5px;
+    width: 400px;
+  }
+
+  .model-page{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  .model-page h2{
+    margin: 10px;
+  }
+  .button-click{
+    padding: 10px;
+    background-color: red;
+    color: rgb(254, 254, 254);
+    width: 200px;
+    border: 2px solid rgb(56, 34, 222);
+    border-radius: 5px;
+    margin: 20px;
+  }
+  .button-click:hover{
+    background-color: white;
+    color: red;
+    transition: 1s;
+  }
+  .model-submit{
+    margin: 30px;
+  }
+  .model-submit button{
+    margin: 30px;
+  }
+  .input-field{
+    display: flex;
+  }
+  .darkMode{
+    height: 20xp;
+    border: 2px solid rgb(77, 74, 74);
+    border-radius: 15px;
+    margin: 30px;  }
